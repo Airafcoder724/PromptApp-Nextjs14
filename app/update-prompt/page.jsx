@@ -44,6 +44,8 @@ const UpdatePrompt = () => {
 
       if (response.ok) {
         router.push("/");
+      }else{
+        router.push("/");
       }
     } catch (error) {
       console.log(error);
